@@ -2,7 +2,7 @@
 
 Game::Game() : window( "Snake", sf::Vector2u( 384, 384 ) ),
 			   txt_gametitle( "SNAKE", 38, sf::Color::White, sf::Vector2f( 146, 100 ) ),
-	           txt_startinfo( "Press space to start", 18, sf::Color::White, sf::Vector2f( 100, 210 ) ),
+	                   txt_startinfo( "Press space to start", 18, sf::Color::White, sf::Vector2f( 100, 210 ) ),
 			   txt_crashed( "Your snake has crashed", 26, sf::Color::White, sf::Vector2f( 42, 120 ) ),
 			   txt_tryagain( "Score: xx | press space to try again", 16, sf::Color::White, sf::Vector2f( 36, 200 ) ),
 			   snake()
